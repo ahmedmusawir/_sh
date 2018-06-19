@@ -25,9 +25,6 @@ echo "SOURCE URL: " $source_site_url
 echo "TARGET URL: " $target_site_url
 echo "==========================================="
 
-cd $target_dir
-mv ./wp-content ./wp-content.old
-
 cd $source_dir
 pwd
 
