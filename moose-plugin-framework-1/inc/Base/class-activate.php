@@ -3,7 +3,7 @@
 /**
 * PLUGIN ACTIVATION CLASS
 */
-class MPF[Replace]Activate
+class [Replace]Activate
 {
 	function __construct()
 	{

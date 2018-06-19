@@ -22,14 +22,11 @@ define( "[REPLACE]PLUGIN_DIR", plugin_dir_path( __FILE__ ) );
 // require_once( plugin_dir_path( __FILE__ ) . 'class-[replace].php' );
 require_once( plugin_dir_path( __FILE__ ) . 'class-enqueue.php' );
 
-function mpf_[replace]_start() {
 
-	$setup_styles = new MPF[Replace]Enqueue();
+// INSTANTIATE CLASSES
+
+	$setup_styles = new [Replace]Enqueue();
 	$setup_styles->initialize();
-
-}
-
-mpf_[replace]_start();
 
 // Activation
 require_once plugin_dir_path( __FILE__ ) . 'inc/Base/class-activate.php';
