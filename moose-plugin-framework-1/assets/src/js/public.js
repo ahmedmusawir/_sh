@@ -1,12 +1,12 @@
-// jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
 
-//   var adminContent = $( '.list-group-item' );
+  var adminContent = $( 'body' );
 
-//   adminContent.click( function(){
+  adminContent.click( function(){
 
-//   	$( this ).css('background-color', 'dodgerblue')
-//   			 .css('color', 'white');
+  	$( this ).css('background-color', 'dodgerblue')
+  			 .css('color', 'white');
 
-//   });
+  });
 	
-// });
+});
