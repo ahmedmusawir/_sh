@@ -3,7 +3,7 @@
 /**
 * MPF Scripts Enqueue Class
 */
-class [Replace]Enqueue
+class [Replace]_Enqueue
 {
 	
 	function __construct()

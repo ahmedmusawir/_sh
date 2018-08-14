@@ -3,7 +3,7 @@
 /**
 * PLUGIN ACTIVATION CLASS
 */
-class [Replace]Activate
+class [Replace]_Activate
 {
 	function __construct()
 	{

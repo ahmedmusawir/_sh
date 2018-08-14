@@ -3,7 +3,7 @@
 /**
 * PLUGIN DEACTIVATION CLASS
 */
-class [Replace]Deactivate
+class [Replace]_Deactivate
 {
 	function __construct()
 	{

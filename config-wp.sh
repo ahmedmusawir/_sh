@@ -5,7 +5,7 @@ echo $temp
 dbext="_db"
 database=$temp$dbext
 title=`echo $url | awk '{print toupper($0)}'`
-adminpass="sCcxj9O6rAgIJhatojiMyxUy1s"
+adminpass="cgteam"
 
 dnsExt=".local"
 echo dns=$url$dnsExt 

@@ -36,7 +36,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'class-enqueue.php' );
 // INSTANTIATE CLASSES
 
 	//Enqueue Styles & Scripts
-	$setup_styles = new [Replace]Enqueue();
+	$setup_styles = new [Replace]_Enqueue();
 	$setup_styles->initialize();
 
 
@@ -45,8 +45,8 @@ require_once( plugin_dir_path( __FILE__ ) . 'class-enqueue.php' );
 
 // Activation
 require_once plugin_dir_path( __FILE__ ) . 'inc/Base/class-activate.php';
-register_activation_hook( __FILE__, array( '[Replace]Activate', 'activate' ) );
+register_activation_hook( __FILE__, array( '[Replace]_Activate', 'activate' ) );
 
 // Activation
 require_once plugin_dir_path( __FILE__ ) . 'inc/Base/class-deactivate.php';
-register_deactivation_hook( __FILE__, array( '[Replace]Deactivate', 'deactivate' ) );
+register_deactivation_hook( __FILE__, array( '[Replace]_Deactivate', 'deactivate' ) );

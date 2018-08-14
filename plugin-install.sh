@@ -1,6 +1,6 @@
 #!/bin/bash
 
-list=`cat /Users/shourav/_sh/plugin-list`
+list=`cat /Users/moose/_sh/plugin-list`
 
 for plugin in $list 
 do
